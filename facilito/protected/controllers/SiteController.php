@@ -2,6 +2,13 @@
 
 class SiteController extends Controller
 {
+    
+    public $layout='//layouts/main';
+    
+    public $pageCaption="My Web con Yii y bootstrap";
+    public $pageDescription="Apendiendo a utilizar Yii y bootstrap";
+    
+    
 	/**
 	 * Declares class-based actions.
 	 */
@@ -77,7 +84,8 @@ class SiteController extends Controller
 	 */
 	public function actionLogin()
 	{
-		$model=new LoginForm;
+            $this->layout ="login";
+            $model=new LoginForm;
 
 		// if it is ajax validation request
 		if(isset($_POST['ajax']) && $_POST['ajax']==='login-form')

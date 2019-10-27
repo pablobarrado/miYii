@@ -3667,6 +3667,7 @@ class CController extends CBaseController
 	}
 	public function init()
 	{
+            $this->attachBehavior('bootstrap', new BController($this));            
 	}
 	public function filters()
 	{
