@@ -1,0 +1,83 @@
+2019/10/27 17:52:43 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "hola/index". in C:\xampp2\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('hola/index')
+#1 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp2\htdocs\yii\facilito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/facilito/hola/index
+---
+2019/10/27 17:52:50 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "hola/index.php". in C:\xampp2\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('hola/index.php')
+#1 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp2\htdocs\yii\facilito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/facilito/hola/index.php
+---
+2019/10/27 17:52:54 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "hola". in C:\xampp2\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('hola')
+#1 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp2\htdocs\yii\facilito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/facilito/hola/
+---
+2019/10/27 17:53:04 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "Hola". in C:\xampp2\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Hola')
+#1 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp2\htdocs\yii\facilito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/facilito/Hola
+---
+2019/10/27 18:01:31 [error] [php] Array to string conversion (C:\xampp2\htdocs\yii\facilito\protected\views\hola\index.php:1)
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\web\CController.php(872): HolaController->renderFile()
+#1 C:\xampp2\htdocs\yii\framework\web\CController.php(785): HolaController->renderPartial()
+#2 C:\xampp2\htdocs\yii\facilito\protected\controllers\HolaController.php(22): HolaController->render()
+#3 C:\xampp2\htdocs\yii\framework\web\actions\CInlineAction.php(49): HolaController->actionIndex()
+#4 C:\xampp2\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp2\htdocs\yii\framework\web\CController.php(286): HolaController->runAction()
+#6 C:\xampp2\htdocs\yii\framework\web\CController.php(265): HolaController->runActionWithFilters()
+#7 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(282): HolaController->run()
+#8 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp2\htdocs\yii\facilito\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/facilito/hola
+in C:\xampp2\htdocs\yii\facilito\protected\views\hola\index.php (1)
+in C:\xampp2\htdocs\yii\facilito\protected\controllers\HolaController.php (22)
+in C:\xampp2\htdocs\yii\facilito\index.php (13)
+2019/10/27 18:01:45 [error] [php] Trying to get property of non-object (C:\xampp2\htdocs\yii\facilito\protected\views\hola\index.php:1)
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\web\CController.php(872): HolaController->renderFile()
+#1 C:\xampp2\htdocs\yii\framework\web\CController.php(785): HolaController->renderPartial()
+#2 C:\xampp2\htdocs\yii\facilito\protected\controllers\HolaController.php(22): HolaController->render()
+#3 C:\xampp2\htdocs\yii\framework\web\actions\CInlineAction.php(49): HolaController->actionIndex()
+#4 C:\xampp2\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp2\htdocs\yii\framework\web\CController.php(286): HolaController->runAction()
+#6 C:\xampp2\htdocs\yii\framework\web\CController.php(265): HolaController->runActionWithFilters()
+#7 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(282): HolaController->run()
+#8 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp2\htdocs\yii\facilito\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/facilito/hola
+in C:\xampp2\htdocs\yii\facilito\protected\views\hola\index.php (1)
+in C:\xampp2\htdocs\yii\facilito\protected\controllers\HolaController.php (22)
+in C:\xampp2\htdocs\yii\facilito\index.php (13)
+2019/10/27 18:01:59 [error] [php] Trying to get property of non-object (C:\xampp2\htdocs\yii\facilito\protected\views\hola\index.php:1)
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\web\CController.php(872): HolaController->renderFile()
+#1 C:\xampp2\htdocs\yii\framework\web\CController.php(785): HolaController->renderPartial()
+#2 C:\xampp2\htdocs\yii\facilito\protected\controllers\HolaController.php(22): HolaController->render()
+#3 C:\xampp2\htdocs\yii\framework\web\actions\CInlineAction.php(49): HolaController->actionIndex()
+#4 C:\xampp2\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp2\htdocs\yii\framework\web\CController.php(286): HolaController->runAction()
+#6 C:\xampp2\htdocs\yii\framework\web\CController.php(265): HolaController->runActionWithFilters()
+#7 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(282): HolaController->run()
+#8 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp2\htdocs\yii\facilito\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/facilito/hola
+in C:\xampp2\htdocs\yii\facilito\protected\views\hola\index.php (1)
+in C:\xampp2\htdocs\yii\facilito\protected\controllers\HolaController.php (22)
+in C:\xampp2\htdocs\yii\facilito\index.php (13)
