@@ -96,3 +96,21 @@ Stack trace:
 #10 {main}
 REQUEST_URI=/yii/facilito/hola
 ---
+2019/10/27 18:25:22 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii.categoriaweb' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `categoriaweb`.
+in C:\xampp2\htdocs\yii\facilito\index.php (13)
+2019/10/27 18:32:04 [error] [php] reset() expects parameter 1 to be array, integer given (C:\xampp2\htdocs\yii\framework\gii\components\Pear\Text\Diff\Engine\native.php:196)
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\gii\components\Pear\Text\Diff\Engine\native.php(88): Text_Diff_Engine_native->_compareseq()
+#1 C:\xampp2\htdocs\yii\framework\gii\components\Pear\Text\Diff.php(56): Text_Diff_Engine_native->diff()
+#2 C:\xampp2\htdocs\yii\framework\gii\components\TextDiff.php(18): Text_Diff->__construct()
+#3 C:\xampp2\htdocs\yii\framework\gii\CCodeGenerator.php(109): compare()
+#4 C:\xampp2\htdocs\yii\framework\web\actions\CInlineAction.php(49): ModelGenerator->actionDiff()
+#5 C:\xampp2\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp2\htdocs\yii\framework\web\CController.php(286): ModelGenerator->runAction()
+#7 C:\xampp2\htdocs\yii\framework\web\CController.php(265): ModelGenerator->runActionWithFilters()
+#8 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(282): ModelGenerator->run()
+#9 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\xampp2\htdocs\yii\facilito\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/facilito/gii/model/diff/id/0.html
+in C:\xampp2\htdocs\yii\facilito\index.php (13)
