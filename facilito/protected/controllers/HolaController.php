@@ -17,7 +17,7 @@ class HolaController extends Controller {
     //# Responderá a /hola/index
     public function  actionIndex(){
         
-        $model = CActiveRecord::model("User")->findAll();
+        $model = User::model("User")->findAll();
         $twitter = "@pablobarrado";        
         $this->render("index",array("twitter"=>$twitter,"model"=>$model));
         

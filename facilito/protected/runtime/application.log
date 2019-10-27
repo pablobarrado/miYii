@@ -81,3 +81,18 @@ REQUEST_URI=/yii/facilito/hola
 in C:\xampp2\htdocs\yii\facilito\protected\views\hola\index.php (1)
 in C:\xampp2\htdocs\yii\facilito\protected\controllers\HolaController.php (22)
 in C:\xampp2\htdocs\yii\facilito\index.php (13)
+2019/10/27 18:12:26 [error] [exception.ParseError] ParseError: syntax error, unexpected 'model' (T_STRING), expecting variable (T_VARIABLE) in C:\xampp2\htdocs\yii\facilito\protected\models\User.php:17
+Stack trace:
+#0 [internal function]: YiiBase::autoload('User')
+#1 C:\xampp2\htdocs\yii\facilito\protected\controllers\HolaController.php(20): spl_autoload_call('User')
+#2 C:\xampp2\htdocs\yii\framework\web\actions\CInlineAction.php(49): HolaController->actionIndex()
+#3 C:\xampp2\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp2\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp2\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('hola')
+#8 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp2\htdocs\yii\facilito\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/facilito/hola
+---
