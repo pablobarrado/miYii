@@ -29,10 +29,11 @@ class Categoriaweb extends CActiveRecord
 		return array(
 			array('nombre, descripcion, categoria_padre', 'required'),
 			array('categoria_padre', 'numerical', 'integerOnly'=>true),
+			array('status', 'numerical', 'integerOnly'=>true),
 			array('nombre, descripcion', 'length', 'max'=>255),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id_ca, nombre, descripcion, categoria_padre', 'safe', 'on'=>'search'),
+			array('id_ca, nombre, descripcion, categoria_padre, status', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -57,6 +58,8 @@ class Categoriaweb extends CActiveRecord
 			'nombre' => 'Nombre',
 			'descripcion' => 'Descripcion',
 			'categoria_padre' => 'Categoria Padre',
+			'status' => 'Estado',
+                    
 		);
 	}
 
@@ -82,6 +85,7 @@ class Categoriaweb extends CActiveRecord
 		$criteria->compare('nombre',$this->nombre,true);
 		$criteria->compare('descripcion',$this->descripcion,true);
 		$criteria->compare('categoria_padre',$this->categoria_padre);
+		$criteria->compare('status',$this->status);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -98,4 +102,8 @@ class Categoriaweb extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+        
+        
+        
+        
 }

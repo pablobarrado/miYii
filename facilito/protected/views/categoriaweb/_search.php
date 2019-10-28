@@ -30,6 +30,10 @@
 		<?php echo $form->label($model,'categoria_padre'); ?>
 		<?php echo $form->textField($model,'categoria_padre'); ?>
 	</div>
+        <div class="row">
+		<?php echo $form->label($model,'status'); ?>
+		<?php echo $form->textField($model,'status'); ?>
+	</div>
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton('Search'); ?>

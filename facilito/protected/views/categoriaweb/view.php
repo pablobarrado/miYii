@@ -7,16 +7,30 @@ $this->breadcrumbs=array(
 	$model->id_ca,
 );
 
+ 
+
+
+if(  ($mensaje=Yii::app()->user->getFlashes()) !==null): 
+    foreach ($mensaje as $type => $message) :
+    ?><div class="alert-messaget"><?php echo $message;?>       
+     </div>
+    <?php
+    endforeach;    
+    
+    endif;
+
+
 $this->menu=array(
-	array('label'=>'List Categoriaweb', 'url'=>array('index')),
-	array('label'=>'Create Categoriaweb', 'url'=>array('create')),
-	array('label'=>'Update Categoriaweb', 'url'=>array('update', 'id'=>$model->id_ca)),
-	array('label'=>'Delete Categoriaweb', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id_ca),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Categoriaweb', 'url'=>array('admin')),
+	array('label'=>'Listar Categoriaweb', 'url'=>array('index')),
+	array('label'=>'Crear Categoriaweb', 'url'=>array('create')),
+	array('label'=>'Editar Categoriaweb', 'url'=>array('update', 'id'=>$model->id_ca)),
+	array('label'=>'Borrar Categoriaweb', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id_ca),'confirm'=>'Are you sure you want to delete this item?')),
+	array('label'=>'Gestión Categoriaweb', 'url'=>array('admin')),
+	array('label'=>'Activar Categoriaweb', 'url'=>array('Enabled')),
 );
 ?>
 
-<h1>View Categoriaweb #<?php echo $model->id_ca; ?></h1>
+<h1>Ver Categoriaweb #<?php echo $model->id_ca; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,
@@ -25,5 +39,6 @@ $this->menu=array(
 		'nombre',
 		'descripcion',
 		'categoria_padre',
+		'status',
 	),
 )); ?>

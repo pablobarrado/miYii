@@ -550,3 +550,399 @@ Stack trace:
 REQUEST_URI=/yii/facilito/site/profile.html
 HTTP_REFERER=http://localhost/yii/facilito/site/contact.html
 ---
+2019/10/27 19:38:31 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "profile". in C:\xampp2\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\web\CController.php(270): CController->missingAction('profile')
+#1 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('profile')
+#2 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/profile')
+#3 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp2\htdocs\yii\facilito\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/facilito/site/profile.html
+HTTP_REFERER=http://localhost/yii/facilito/site/contact.html
+---
+2019/10/27 19:38:40 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "profile". in C:\xampp2\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\web\CController.php(270): CController->missingAction('profile')
+#1 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('profile')
+#2 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/profile')
+#3 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp2\htdocs\yii\facilito\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/facilito/site/profile.html
+HTTP_REFERER=http://localhost/yii/facilito/site/contact.html
+---
+2019/10/27 19:38:40 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "profile". in C:\xampp2\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\web\CController.php(270): CController->missingAction('profile')
+#1 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('profile')
+#2 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/profile')
+#3 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp2\htdocs\yii\facilito\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/facilito/site/profile.html
+HTTP_REFERER=http://localhost/yii/facilito/site/contact.html
+---
+2019/10/27 19:38:48 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "profile". in C:\xampp2\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\web\CController.php(270): CController->missingAction('profile')
+#1 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('profile')
+#2 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/profile')
+#3 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp2\htdocs\yii\facilito\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/facilito/site/profile.html
+HTTP_REFERER=http://localhost/yii/facilito/site/contact.html
+---
+2019/10/27 19:38:48 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "profile". in C:\xampp2\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\web\CController.php(270): CController->missingAction('profile')
+#1 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('profile')
+#2 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/profile')
+#3 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp2\htdocs\yii\facilito\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/facilito/site/profile.html
+HTTP_REFERER=http://localhost/yii/facilito/site/contact.html
+---
+2019/10/27 19:38:48 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "profile". in C:\xampp2\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\web\CController.php(270): CController->missingAction('profile')
+#1 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('profile')
+#2 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/profile')
+#3 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp2\htdocs\yii\facilito\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/facilito/site/profile.html
+HTTP_REFERER=http://localhost/yii/facilito/site/contact.html
+---
+2019/10/27 19:38:49 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "profile". in C:\xampp2\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\web\CController.php(270): CController->missingAction('profile')
+#1 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('profile')
+#2 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/profile')
+#3 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp2\htdocs\yii\facilito\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/facilito/site/profile.html
+HTTP_REFERER=http://localhost/yii/facilito/site/contact.html
+---
+2019/10/28 21:34:36 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/favicon.ico". in C:\xampp2\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/favicon....')
+#1 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp2\htdocs\yii\facilito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/facilito/images/favicon.ico
+HTTP_REFERER=http://localhost/yii/facilito/
+---
+2019/10/28 21:34:53 [error] [exception.CException] CException: Property "CategoriawebController.pageCaption" is not defined. in C:\xampp2\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp2\htdocs\yii\facilito\themes\bootstrap\views\layouts\column2.php(4): CComponent->__get('pageCaption')
+#1 C:\xampp2\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#3 C:\xampp2\htdocs\yii\framework\web\CController.php(787): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#4 C:\xampp2\htdocs\yii\facilito\protected\controllers\CategoriawebController.php(127): CController->render('index', Array)
+#5 C:\xampp2\htdocs\yii\framework\web\actions\CInlineAction.php(49): CategoriawebController->actionIndex()
+#6 C:\xampp2\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp2\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#8 C:\xampp2\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp2\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp2\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp2\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp2\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp2\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#15 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('categoriaweb/in...')
+#16 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp2\htdocs\yii\facilito\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/yii/facilito/categoriaweb/index.html
+---
+2019/10/28 21:35:15 [error] [exception.CException] CException: Property "CategoriawebController.pageCaption" is not defined. in C:\xampp2\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp2\htdocs\yii\facilito\themes\bootstrap\views\layouts\column2.php(4): CComponent->__get('pageCaption')
+#1 C:\xampp2\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#3 C:\xampp2\htdocs\yii\framework\web\CController.php(787): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#4 C:\xampp2\htdocs\yii\facilito\protected\controllers\CategoriawebController.php(127): CController->render('index', Array)
+#5 C:\xampp2\htdocs\yii\framework\web\actions\CInlineAction.php(49): CategoriawebController->actionIndex()
+#6 C:\xampp2\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp2\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#8 C:\xampp2\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp2\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp2\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp2\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp2\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp2\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#15 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('categoriaweb/in...')
+#16 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp2\htdocs\yii\facilito\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/yii/facilito/categoriaweb/index.html
+---
+2019/10/28 21:35:19 [error] [exception.CException] CException: Property "CategoriawebController.pageCaption" is not defined. in C:\xampp2\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp2\htdocs\yii\facilito\themes\bootstrap\views\layouts\column2.php(4): CComponent->__get('pageCaption')
+#1 C:\xampp2\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#3 C:\xampp2\htdocs\yii\framework\web\CController.php(787): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#4 C:\xampp2\htdocs\yii\facilito\protected\controllers\CategoriawebController.php(127): CController->render('index', Array)
+#5 C:\xampp2\htdocs\yii\framework\web\actions\CInlineAction.php(49): CategoriawebController->actionIndex()
+#6 C:\xampp2\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp2\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#8 C:\xampp2\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp2\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp2\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp2\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp2\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp2\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#15 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('categoriaweb')
+#16 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp2\htdocs\yii\facilito\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/yii/facilito/categoriaweb/
+---
+2019/10/28 21:38:53 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "categoriasweb". in C:\xampp2\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\web\CController.php(270): CController->missingAction('categoriasweb')
+#1 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('categoriasweb')
+#2 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/categorias...')
+#3 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp2\htdocs\yii\facilito\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/facilito/site/categoriasweb.html
+HTTP_REFERER=http://localhost/yii/facilito/site/index.html
+---
+2019/10/28 21:39:01 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "categoriasweb". in C:\xampp2\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\web\CController.php(270): CController->missingAction('categoriasweb')
+#1 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('categoriasweb')
+#2 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/categorias...')
+#3 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp2\htdocs\yii\facilito\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/facilito/site/categoriasweb/index.html
+---
+2019/10/28 21:39:08 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "Categoriasweb/index". in C:\xampp2\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Categoriasweb/i...')
+#1 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp2\htdocs\yii\facilito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/facilito/Categoriasweb/index.html
+---
+2019/10/28 21:39:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "Categoriaswebs/index". in C:\xampp2\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Categoriaswebs/...')
+#1 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp2\htdocs\yii\facilito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/facilito/Categoriaswebs/index.html
+---
+2019/10/28 22:03:39 [error] [exception.CException] CException: Property "Categoriaweb.status" is not defined. in C:\xampp2\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('status')
+#1 C:\xampp2\htdocs\yii\framework\web\helpers\CHtml.php(2760): CActiveRecord->__get('status')
+#2 C:\xampp2\htdocs\yii\framework\web\helpers\CHtml.php(2483): CHtml::resolveValue(Object(Categoriaweb), 'status')
+#3 C:\xampp2\htdocs\yii\framework\web\helpers\CHtml.php(1540): CHtml::activeInputField('text', Object(Categoriaweb), 'status', Array)
+#4 C:\xampp2\htdocs\yii\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(Categoriaweb), 'status', Array)
+#5 C:\xampp2\htdocs\yii\facilito\protected\views\categoriaweb\_form.php(41): CActiveForm->textField(Object(Categoriaweb), 'status')
+#6 C:\xampp2\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp2\\htdoc...')
+#7 C:\xampp2\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#8 C:\xampp2\htdocs\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#9 C:\xampp2\htdocs\yii\facilito\protected\views\categoriaweb\update.php(21): CController->renderPartial('_form', Array)
+#10 C:\xampp2\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp2\\htdoc...')
+#11 C:\xampp2\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#12 C:\xampp2\htdocs\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#13 C:\xampp2\htdocs\yii\framework\web\CController.php(785): CController->renderPartial('update', Array, true)
+#14 C:\xampp2\htdocs\yii\facilito\protected\controllers\CategoriawebController.php(105): CController->render('update', Array)
+#15 [internal function]: CategoriawebController->actionUpdate('1')
+#16 C:\xampp2\htdocs\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(CategoriawebController), Array)
+#17 C:\xampp2\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(CategoriawebController), Object(ReflectionMethod), Array)
+#18 C:\xampp2\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\xampp2\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#20 C:\xampp2\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#21 C:\xampp2\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#22 C:\xampp2\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#23 C:\xampp2\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#24 C:\xampp2\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#25 C:\xampp2\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#27 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('categoriaweb/up...')
+#28 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#29 C:\xampp2\htdocs\yii\facilito\index.php(13): CApplication->run()
+#30 {main}
+REQUEST_URI=/yii/facilito/categoriaweb/update/1.html
+HTTP_REFERER=http://localhost/yii/facilito/site/login.html
+---
+2019/10/28 22:04:36 [error] [exception.CException] CException: Property "Categoriaweb.status" is not defined. in C:\xampp2\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('status')
+#1 C:\xampp2\htdocs\yii\framework\web\helpers\CHtml.php(2760): CActiveRecord->__get('status')
+#2 C:\xampp2\htdocs\yii\framework\web\helpers\CHtml.php(2483): CHtml::resolveValue(Object(Categoriaweb), 'status')
+#3 C:\xampp2\htdocs\yii\framework\web\helpers\CHtml.php(1540): CHtml::activeInputField('text', Object(Categoriaweb), 'status', Array)
+#4 C:\xampp2\htdocs\yii\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(Categoriaweb), 'status', Array)
+#5 C:\xampp2\htdocs\yii\facilito\protected\views\categoriaweb\_form.php(41): CActiveForm->textField(Object(Categoriaweb), 'status')
+#6 C:\xampp2\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp2\\htdoc...')
+#7 C:\xampp2\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#8 C:\xampp2\htdocs\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#9 C:\xampp2\htdocs\yii\facilito\protected\views\categoriaweb\update.php(21): CController->renderPartial('_form', Array)
+#10 C:\xampp2\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp2\\htdoc...')
+#11 C:\xampp2\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#12 C:\xampp2\htdocs\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#13 C:\xampp2\htdocs\yii\framework\web\CController.php(785): CController->renderPartial('update', Array, true)
+#14 C:\xampp2\htdocs\yii\facilito\protected\controllers\CategoriawebController.php(105): CController->render('update', Array)
+#15 [internal function]: CategoriawebController->actionUpdate('1')
+#16 C:\xampp2\htdocs\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(CategoriawebController), Array)
+#17 C:\xampp2\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(CategoriawebController), Object(ReflectionMethod), Array)
+#18 C:\xampp2\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\xampp2\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#20 C:\xampp2\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#21 C:\xampp2\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#22 C:\xampp2\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#23 C:\xampp2\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#24 C:\xampp2\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#25 C:\xampp2\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#27 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('categoriaweb/up...')
+#28 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#29 C:\xampp2\htdocs\yii\facilito\index.php(13): CApplication->run()
+#30 {main}
+REQUEST_URI=/yii/facilito/categoriaweb/update/1.html
+HTTP_REFERER=http://localhost/yii/facilito/site/login.html
+---
+2019/10/28 22:33:18 [error] [exception.ParseError] ParseError: syntax error, unexpected '<', expecting end of file in C:\xampp2\htdocs\yii\facilito\protected\views\categoriaweb\view.php:10
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#1 C:\xampp2\htdocs\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#2 C:\xampp2\htdocs\yii\framework\web\CController.php(785): CController->renderPartial('view', Array, true)
+#3 C:\xampp2\htdocs\yii\facilito\protected\controllers\CategoriawebController.php(58): CController->render('view', Array)
+#4 [internal function]: CategoriawebController->actionView('1')
+#5 C:\xampp2\htdocs\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(CategoriawebController), Array)
+#6 C:\xampp2\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(CategoriawebController), Object(ReflectionMethod), Array)
+#7 C:\xampp2\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp2\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 C:\xampp2\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\xampp2\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp2\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\xampp2\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\xampp2\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\xampp2\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#16 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('categoriaweb/vi...')
+#17 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\xampp2\htdocs\yii\facilito\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/yii/facilito/categoriaweb/1.html
+HTTP_REFERER=http://localhost/yii/facilito/categoriaweb/index.html
+---
+2019/10/28 22:33:50 [error] [exception.ParseError] ParseError: syntax error, unexpected '<', expecting end of file in C:\xampp2\htdocs\yii\facilito\protected\views\categoriaweb\view.php:10
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#1 C:\xampp2\htdocs\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#2 C:\xampp2\htdocs\yii\framework\web\CController.php(785): CController->renderPartial('view', Array, true)
+#3 C:\xampp2\htdocs\yii\facilito\protected\controllers\CategoriawebController.php(58): CController->render('view', Array)
+#4 [internal function]: CategoriawebController->actionView('1')
+#5 C:\xampp2\htdocs\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(CategoriawebController), Array)
+#6 C:\xampp2\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(CategoriawebController), Object(ReflectionMethod), Array)
+#7 C:\xampp2\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp2\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 C:\xampp2\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\xampp2\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp2\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\xampp2\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\xampp2\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\xampp2\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#16 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('categoriaweb/vi...')
+#17 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\xampp2\htdocs\yii\facilito\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/yii/facilito/categoriaweb/1.html
+HTTP_REFERER=http://localhost/yii/facilito/categoriaweb/index.html
+---
+2019/10/28 22:35:15 [error] [exception.ParseError] ParseError: syntax error, unexpected '<', expecting end of file in C:\xampp2\htdocs\yii\facilito\protected\views\categoriaweb\view.php:10
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#1 C:\xampp2\htdocs\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#2 C:\xampp2\htdocs\yii\framework\web\CController.php(785): CController->renderPartial('view', Array, true)
+#3 C:\xampp2\htdocs\yii\facilito\protected\controllers\CategoriawebController.php(58): CController->render('view', Array)
+#4 [internal function]: CategoriawebController->actionView('1')
+#5 C:\xampp2\htdocs\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(CategoriawebController), Array)
+#6 C:\xampp2\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(CategoriawebController), Object(ReflectionMethod), Array)
+#7 C:\xampp2\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp2\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 C:\xampp2\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\xampp2\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp2\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\xampp2\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\xampp2\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\xampp2\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#16 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('categoriaweb/vi...')
+#17 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\xampp2\htdocs\yii\facilito\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/yii/facilito/categoriaweb/1.html
+HTTP_REFERER=http://localhost/yii/facilito/categoriaweb/index.html
+---
+2019/10/28 22:35:53 [error] [php] Invalid argument supplied for foreach() (C:\xampp2\htdocs\yii\facilito\protected\views\categoriaweb\view.php:14)
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\web\CController.php(872): CategoriawebController->renderFile()
+#1 C:\xampp2\htdocs\yii\framework\web\CController.php(785): CategoriawebController->renderPartial()
+#2 C:\xampp2\htdocs\yii\facilito\protected\controllers\CategoriawebController.php(58): CategoriawebController->render()
+#3 unknown(0): CategoriawebController->actionView()
+#4 C:\xampp2\htdocs\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#5 C:\xampp2\htdocs\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 C:\xampp2\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp2\htdocs\yii\framework\web\filters\CFilterChain.php(134): CategoriawebController->runAction()
+#8 C:\xampp2\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp2\htdocs\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#10 C:\xampp2\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CategoriawebController->filterAccessControl()
+#11 C:\xampp2\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 C:\xampp2\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp2\htdocs\yii\framework\web\CController.php(265): CategoriawebController->runActionWithFilters()
+#14 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(282): CategoriawebController->run()
+#15 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp2\htdocs\yii\facilito\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/facilito/categoriaweb/1.html
+in C:\xampp2\htdocs\yii\facilito\protected\views\categoriaweb\view.php (14)
+in C:\xampp2\htdocs\yii\facilito\protected\controllers\CategoriawebController.php (58)
+in C:\xampp2\htdocs\yii\facilito\index.php (13)
+2019/10/28 22:38:48 [error] [exception.ParseError] ParseError: syntax error, unexpected '<', expecting end of file in C:\xampp2\htdocs\yii\facilito\protected\views\categoriaweb\index.php:27
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp2\\htdoc...', Array, true)
+#1 C:\xampp2\htdocs\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp2\\htdoc...', Array, true)
+#2 C:\xampp2\htdocs\yii\framework\web\CController.php(785): CController->renderPartial('index', Array, true)
+#3 C:\xampp2\htdocs\yii\facilito\protected\controllers\CategoriawebController.php(133): CController->render('index', Array)
+#4 C:\xampp2\htdocs\yii\framework\web\actions\CInlineAction.php(49): CategoriawebController->actionIndex()
+#5 C:\xampp2\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp2\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 C:\xampp2\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp2\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#9 C:\xampp2\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\xampp2\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp2\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp2\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#14 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('categoriaweb/in...')
+#15 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp2\htdocs\yii\facilito\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii/facilito/categoriaweb/index.html
+HTTP_REFERER=http://localhost/yii/facilito/categoriaweb/admin.html
+---
+2019/10/28 23:02:44 [error] [exception.ParseError] ParseError: syntax error, unexpected 'Yii' (T_STRING) in C:\xampp2\htdocs\yii\facilito\protected\controllers\CategoriawebController.php:151
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController('index/')
+#1 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('categoriaweb/in...')
+#2 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#3 C:\xampp2\htdocs\yii\facilito\index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/yii/facilito/categoriaweb/index.html
+HTTP_REFERER=http://localhost/yii/facilito/categoriaweb/update/1.html
+---

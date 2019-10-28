@@ -12,8 +12,21 @@ $this->menu=array(
 );
 ?>
 
-<h1>Categoriawebs</h1>
+<h1>Categoria webs</h1>
 
+<?php
+if(  ($mensaje=Yii::app()->user->getFlashes()) !==null): 
+    foreach ($mensaje as $type => $message) :
+    ?><div class="container">        
+        <div class="alert-message">
+        <?php echo $message;?>       
+        </div>
+     </div>
+    <?php
+    endforeach;    
+    
+    endif;
+?>
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,
 	'itemView'=>'_view',

@@ -36,7 +36,12 @@
 		<?php echo $form->textField($model,'categoria_padre'); ?>
 		<?php echo $form->error($model,'categoria_padre'); ?>
 	</div>
-
+        <div class="row">
+		<?php echo $form->labelEx($model,'status'); ?>
+		<?php echo $form->textField($model,'status'); ?>
+		<?php echo $form->error($model,'status'); ?>
+	</div>        
+        
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
 	</div>

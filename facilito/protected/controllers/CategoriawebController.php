@@ -6,6 +6,9 @@ class CategoriawebController extends Controller
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
+        public $pageCaption="My Web con Yii y bootstrap - Página de Categorías";
+        public $pageDescription="Apendiendo a utilizar Yii y bootstrap - Sección de Categorías";
+    
 	public $layout='//layouts/column2';
 
 	/**
@@ -51,6 +54,7 @@ class CategoriawebController extends Controller
 	 */
 	public function actionView($id)
 	{
+                Yii::app()->user->setFlash("Error","Prueba de error");
 		$this->render('view',array(
 			'model'=>$this->loadModel($id),
 		));
@@ -122,6 +126,30 @@ class CategoriawebController extends Controller
 	 */
 	public function actionIndex()
 	{
+            // include 
+            // Par Alias 
+            // NO hace falta poner php 
+            // nombre de la clase igual que el nombre del archivo
+               // Yii::import("application.Test");
+               // Yii::import("ext.Test");
+                // Podemos crear mi Alias 
+                Yii::import("me.Test");    
+                
+                $mio = new Test();
+                $mio->Hola();
+                    
+                // 
+                // 
+                // Alias 
+                // application // protected
+                //  webroot // root 
+                //  ext // protected/extensions
+                //  zii // framework/zii
+                // 
+                //include (Yii::getPathOfAlias("application")."Test.php");
+            
+               Yii::app()->user->setFlash("Información","Mensaje de Usuario"); 
+            
 		$dataProvider=new CActiveDataProvider('Categoriaweb');
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
@@ -133,6 +161,7 @@ class CategoriawebController extends Controller
 	 */
 	public function actionAdmin()
 	{
+                Yii::app()->user->setFlash("Error","Prueba de error");
 		$model=new Categoriaweb('search');
 		$model->unsetAttributes();  // clear any default values
 		if(isset($_GET['Categoriaweb']))
@@ -170,4 +199,22 @@ class CategoriawebController extends Controller
 			Yii::app()->end();
 		}
 	}
+        
+        /**
+         * 
+         * @param type $id
+         */
+        public function actionEnabled($id){
+            $model= CategoriawebController::mode()->findByPk($id);
+            
+            if($model->status == 1){
+                $model->status =0;
+            }else {
+                $model->status =1;
+            }
+            $model->save();
+            $this->redirect(array("index"));
+            
+        }
+        
 }

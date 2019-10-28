@@ -20,6 +20,9 @@
 	<b><?php echo CHtml::encode($data->getAttributeLabel('categoria_padre')); ?>:</b>
 	<?php echo CHtml::encode($data->categoria_padre); ?>
 	<br />
+        <b><?php echo CHtml::encode($data->getAttributeLabel('status')); ?>:</b>
+	<?php echo CHtml::encode($data->status); ?>
+	<br />
 
 
 </div>
