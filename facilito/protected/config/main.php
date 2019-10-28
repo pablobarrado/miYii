@@ -38,14 +38,20 @@ return array(
 	// application components
 	'components'=>array(
 
+                'nuevoComponent'=>array(
+                    "class" => "ext.GHappy",
+                    "trato" => "1",                   
+		),            
 		'user'=>array(
 			// enable cookie-based authentication
+                        'class' => 'CWebUser',
 			'allowAutoLogin'=>true,
 		),
 
 		// uncomment the following to enable URLs in path-format
 		
 		'urlManager'=>array(
+                        'class' => 'CUrlManager',
 			'urlFormat'=>'path',
                         'showScriptName' => false,
                         'urlSuffix' => '.html',

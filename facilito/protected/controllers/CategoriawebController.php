@@ -137,6 +137,8 @@ class CategoriawebController extends Controller
                 
                 $mio = new Test();
                 $mio->Hola();
+                
+                echo Yii::app()->nuevoComponent->hola();
                     
                 // 
                 // 
