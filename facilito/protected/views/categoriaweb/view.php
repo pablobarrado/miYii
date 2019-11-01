@@ -27,6 +27,7 @@ $this->menu=array(
 	array('label'=>'Borrar Categoriaweb', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id_ca),'confirm'=>'Are you sure you want to delete this item?')),
 	array('label'=>'Gestión Categoriaweb', 'url'=>array('admin')),
 	array('label'=>'Activar Categoriaweb', 'url'=>array('Enabled')),
+	array('label'=>'Exportar a excel Categorias', 'url'=>array('enviarArchivo')),
 );
 ?>
 

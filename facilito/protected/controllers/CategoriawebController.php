@@ -150,6 +150,27 @@ class CategoriawebController extends Controller {
         echo "queryString =>".Yii::app()->request->queryString . "<br>";
         echo "userHost =>".Yii::app()->request->userHost . "<br>";
         echo "userHostAddress =>".Yii::app()->request->userHostAddress . "<br>";
+        
+        
+        if(Yii::app()->user->isGuest)
+        {
+            echo "Es invitado<br>";
+        }
+        else {
+            echo "Esta logueado<br>";
+        }
+        
+        Yii::app()->user->getFlashes();
+        
+        
+        
+        Yii::app()->user->setState("My variable session","xyv");
+        //Yii::app()->user->login(CUserIdentity,360);
+        Yii::app()->user->logout();
+        
+        
+        print_r(Yii::app()->user);
+        
         // exportar a excel
         //Yii::app()->request->sendFile($fileName, $content) . "<br>";
         //  redirect con sctring
@@ -194,13 +215,10 @@ class CategoriawebController extends Controller {
      * Manages all models.
      */
     public function actionenviarArchivo() {
-        
         $fileName = "test.xls";
-        $content = "<table><tr>"
-                . "<td>Texto 1</td>"
-                . "<td>Texto 2</td>"
-                . "<td>Texto 3</td>"
-                . "</tr></table>";
+        $content = "<table><tr><td>Texto 1</td><td>Texto 2</td><td>Texto 3</td></tr></table>";        
+        $content = $this->renderPartial("excel",array('model' => Categoriaweb::model()->findAll()), true);
+        
         Yii::app()->request->sendFile($fileName, $content);
         $this->render('admin', array(
             'model' => $model,
