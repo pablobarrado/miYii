@@ -1013,3 +1013,90 @@ Stack trace:
 REQUEST_URI=/yii/facilito/categoriaweb/index.html
 HTTP_REFERER=http://localhost/yii/facilito/categoriaweb/update/1.html
 ---
+2019/11/01 12:23:15 [error] [exception.ParseError] ParseError: syntax error, unexpected ')' in C:\xampp2\htdocs\yii\facilito\protected\controllers\CategoriawebController.php:143
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(277): CWebApplication->createController('index/')
+#1 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('categoriaweb/in...')
+#2 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#3 C:\xampp2\htdocs\yii\facilito\index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/yii/facilito/categoriaweb/index.html
+---
+2019/11/01 12:23:36 [error] [exception.ParseError] ParseError: syntax error, unexpected ':', expecting ',' or ';' in C:\xampp2\htdocs\yii\facilito\protected\controllers\CategoriawebController.php:154
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(277): CWebApplication->createController('index/')
+#1 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('categoriaweb/in...')
+#2 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#3 C:\xampp2\htdocs\yii\facilito\index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/yii/facilito/categoriaweb/index.html
+---
+2019/11/01 12:25:20 [error] [exception.CException] CException: Property "CHttpRequest.requesUri" is not defined. in C:\xampp2\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp2\htdocs\yii\facilito\protected\controllers\CategoriawebController.php(145): CComponent->__get('requesUri')
+#1 C:\xampp2\htdocs\yii\framework\web\actions\CInlineAction.php(49): CategoriawebController->actionIndex()
+#2 C:\xampp2\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp2\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 C:\xampp2\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp2\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#6 C:\xampp2\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\xampp2\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\xampp2\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp2\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#11 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('categoriaweb/in...')
+#12 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp2\htdocs\yii\facilito\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii/facilito/categoriaweb/index.html
+---
+2019/11/01 12:51:53 [error] [php] Undefined variable: fileName (C:\xampp2\htdocs\yii\facilito\protected\controllers\CategoriawebController.php:154)
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\web\filters\CFilterChain.php(134): CategoriawebController->runAction()
+#1 C:\xampp2\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp2\htdocs\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#3 C:\xampp2\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CategoriawebController->filterAccessControl()
+#4 C:\xampp2\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#5 C:\xampp2\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp2\htdocs\yii\framework\web\CController.php(265): CategoriawebController->runActionWithFilters()
+#7 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(283): CategoriawebController->run()
+#8 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp2\htdocs\yii\facilito\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/facilito/categoriaweb/index.html
+in C:\xampp2\htdocs\yii\facilito\protected\controllers\CategoriawebController.php (154)
+in C:\xampp2\htdocs\yii\facilito\index.php (13)
+2019/11/01 12:52:01 [error] [php] Undefined variable: content (C:\xampp2\htdocs\yii\facilito\protected\controllers\CategoriawebController.php:156)
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\web\filters\CFilterChain.php(134): CategoriawebController->runAction()
+#1 C:\xampp2\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp2\htdocs\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#3 C:\xampp2\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CategoriawebController->filterAccessControl()
+#4 C:\xampp2\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#5 C:\xampp2\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp2\htdocs\yii\framework\web\CController.php(265): CategoriawebController->runActionWithFilters()
+#7 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(283): CategoriawebController->run()
+#8 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp2\htdocs\yii\facilito\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/facilito/categoriaweb/index.html
+in C:\xampp2\htdocs\yii\facilito\protected\controllers\CategoriawebController.php (156)
+in C:\xampp2\htdocs\yii\facilito\index.php (13)
+2019/11/01 12:57:00 [error] [exception.ParseError] ParseError: syntax error, unexpected 'Yii' (T_STRING) in C:\xampp2\htdocs\yii\facilito\protected\controllers\CategoriawebController.php:204
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(277): CWebApplication->createController('')
+#1 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('categoriaweb')
+#2 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#3 C:\xampp2\htdocs\yii\facilito\index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/yii/facilito/categoriaweb.html
+HTTP_REFERER=http://localhost/yii/facilito/
+---
+2019/11/01 12:59:15 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "enviarArchivo". in C:\xampp2\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('enviarArchivo')
+#1 C:\xampp2\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp2\htdocs\yii\facilito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/facilito/enviarArchivo
+---

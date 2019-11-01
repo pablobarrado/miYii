@@ -9,6 +9,7 @@ $this->breadcrumbs=array(
 $this->menu=array(
 	array('label'=>'Create Categoriaweb', 'url'=>array('create')),
 	array('label'=>'Manage Categoriaweb', 'url'=>array('admin')),
+	array('label'=>'Fichero excel', 'url'=>array('enviarArchivo')),
 );
 ?>
 
