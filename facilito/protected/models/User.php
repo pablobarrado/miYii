@@ -98,4 +98,9 @@ class User extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+        
+         public function actionAssign(){
+            
+            
+        }
 }

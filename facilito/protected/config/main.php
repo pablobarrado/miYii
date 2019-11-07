@@ -37,7 +37,10 @@ return array(
 
 	// application components
 	'components'=>array(
-
+                'authManager' => array(
+                    "class" => "CDbAuthManager",
+                    "connectionID" => "db",
+                ),
                 'nuevoComponent'=>array(
                     "class" => "ext.GHappy",
                     "trato" => "1",                   

@@ -11,6 +11,8 @@ class CategoriawebController extends Controller {
     public $layout = '//layouts/column2';
 
     /**
+     * Funcionalidades que se van a ejecutar 
+     * se pueden crear filtros personalizados
      * @return array action filters
      */
     public function filters() {
@@ -30,6 +32,9 @@ class CategoriawebController extends Controller {
             array('allow', // allow all users to perform 'index' and 'view' actions
                 'actions' => array('index', 'view','enviarArchivo'),
                 'users' => array('*'),
+                //'ips'=> array("127.0.0.1"),
+                //'verds'=>array("PUT"), //post o y  get delete                
+                //'roles' => array("admin"),
             ),
             array('allow', // allow authenticated user to perform 'create' and 'update' actions
                 'actions' => array('create', 'update'),
@@ -123,12 +128,26 @@ class CategoriawebController extends Controller {
         // Yii::import("application.Test");
         // Yii::import("ext.Test");
         // Podemos crear mi Alias 
+       // Yii::app()->authManager->createRole("admin");
+        // Yii::app()->authManager->assign("admin",1);
+        
+        
+        echo "id es ".Yii::app()->user->id."<br>";
+        
+        if(Yii::app()->user->checkAccess("admin")){            
+           echo "Dentro de check access <br>";            
+        }
+        
+        if(Yii::app()->authManager->checkAccess("admin",1)){            
+           echo "Dentro de check access <br>";            
+        }
+        
         Yii::import("me.Test");
 
         $mio = new Test();
         $mio->Hola();
 
-        echo Yii::app()->nuevoComponent->hola();
+        //   echo Yii::app()->nuevoComponent->hola();
         // $_post    
         $test = Yii::app()->request->getPost("test", "defalValue");
         // $_get
@@ -140,7 +159,7 @@ class CategoriawebController extends Controller {
         }
         if (Yii::app()->request->isAjaxRequest) { 
             // Peticion con ajax 
-        }
+        
         echo "<br><br>";
         echo "baseUrl => ".Yii::app()->request->baseUrl . "<br>";
         echo "requestUri =>".Yii::app()->request->requestUri . "<br>";
@@ -150,7 +169,7 @@ class CategoriawebController extends Controller {
         echo "queryString =>".Yii::app()->request->queryString . "<br>";
         echo "userHost =>".Yii::app()->request->userHost . "<br>";
         echo "userHostAddress =>".Yii::app()->request->userHostAddress . "<br>";
-        
+        }
         
         if(Yii::app()->user->isGuest)
         {
@@ -166,10 +185,11 @@ class CategoriawebController extends Controller {
         
         Yii::app()->user->setState("My variable session","xyv");
         //Yii::app()->user->login(CUserIdentity,360);
-        Yii::app()->user->logout();
+        // Yii::app()->user->logout();
         
+        //Yii::app()->end();
         
-        print_r(Yii::app()->user);
+       // print_r(Yii::app()->user);
         
         // exportar a excel
         //Yii::app()->request->sendFile($fileName, $content) . "<br>";
