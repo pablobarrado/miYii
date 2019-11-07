@@ -35,8 +35,7 @@ class User extends CActiveRecord
 			array('id, username, password, email', 'safe', 'on'=>'search'),
 		);
 	}
-
-	/**
+               	/**
 	 * @return array relational rules.
 	 */
 	public function relations()

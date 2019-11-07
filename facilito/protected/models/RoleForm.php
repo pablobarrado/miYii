@@ -22,11 +22,18 @@ class RoleForm extends CFormModel {
         
         return array(
             array("name,type", "required"),
-            array("name", "ext.MyValidator"),            
-            array("descripcion", "exist","attributeName"=>"username","className"=>"Users","message"=>"Ya existe"),
-            // array("descripcion", "unique","attributeName"=>"username","className"=>"Users","message"=>"Ya existe"),
+           # array("name", "ext.MyValidator"),            
+           # array("descripcion", "exist","attributeName"=>"username","className"=>"Users","message"=>"Ya existe"),
+            # array("descripcion", "unique","attributeName"=>"username","className"=>"Users","message"=>"Ya existe"),
+            array("descripcion", "mivalicaciondelmodelo"),
         );
         
     }
-    
+       
+    public function mivalicaciondelmodelo($attribute,$params){
+            
+            if($this->$attribute == "test" )
+                $this->addError($attribute, "No permitido");
+            
+    }    
 }
